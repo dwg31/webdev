@@ -1,0 +1,25 @@
+h1 {
+    /*background-color: #00F0F0;*/
+    text-align: center;
+    margin: 20px auto 20px auto;
+}
+
+table {
+    /*background-color: green;*/
+    margin: auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+td:nth-of-type(2) {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+tr:nth-of-type(2) td {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}

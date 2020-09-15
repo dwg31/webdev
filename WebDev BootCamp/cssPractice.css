@@ -1,0 +1,29 @@
+h1 {
+    color: #FF0011;
+    background: green;
+/*    border-color: green;
+    border-width: 5px;
+    border-style: solid;*/
+    border: 5px dashed purple;
+}
+
+li {
+    color: #00FF90;
+}
+
+h4 {
+    color: rgba(230, 2, 190, 0.4);
+}
+
+body {
+    background: url(https://images.theconversation.com/files/223734/original/file-20180619-126546-bu45x8.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p {
+    background: pink;
+}
+
+div {
+    background: #FF0000;
+}

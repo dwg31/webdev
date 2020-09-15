@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>Login</h1>
+    <!-- attributes of form: action - where the form send data to -->
+    <!-- attributes of form: method - what HTTP method (get/post) -->
+    <!-- if action is missing, it sends data to where the current place is -->
+    <!-- if method is missing, it is a get request by default -->
+    <!-- <form action="http://www.wikipedia.org" method="GET"> -->
+    <form>
+        <label>
+            Username:
+            <input name="username" type="username" placeholder="username" required>
+        </label>
+        <!-- instead of nesting input inside label, we can use for and id to connect them -->
+        <label for="password">Password</label>
+        <input name="password" id="password" type="password" placeholder="password">
+
+        <label>
+            Email:
+            <input name="email" type="email" placeholder="someone@example.com">
+        </label>
+
+        <p>Your sex:</p>
+        <label for="male">Male: </label>
+        <input type="radio" name="sex" id="male" value="male">
+        <label for="female">Female: </label>
+        <input type="radio" name="sex" id="female" value="female">
+
+        <p>What's your current mood?</p>
+        <select name="mood">
+            <option value="happy">:)</option>
+            <option value="very happy">:)))</option>
+            <option value="sad">:(</option>
+            <option value="skeptivcal">:/</option>
+        </select>
+
+        <p>What is your bio?</p>
+        <textarea name="bio" rows="5" cols="50"></textarea>
+
+        <!-- button+submit and input+submit are identical -->
+        <button>Submit</button>
+        <!-- <input type="submit"> -->
+    </form>
+
+</body>
+</html>
