@@ -116,3 +116,5 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+WebDevBootCamp/.DS_Store
+WebDevBootCamp/.DS_Store
